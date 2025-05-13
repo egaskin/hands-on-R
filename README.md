@@ -40,12 +40,14 @@ After getting a warning message, I installed [Rtools](https://cran.rstudio.com/b
 
 # beautiful concepts misc.
 
+- I incorporated section 9.1's strategy for solving coding problems into my document [General process for solving any coding problem](https://docs.google.com/document/d/1GgkUJNM2ogupQm6GABGjOBHEkWG6HUdDG8evpBpYDBM/edit?tab=t.0#heading=h.886z67xowl1o)
+
 - data science requires solving 3 problems:
   1. Logistical problem: how can you store and manipulate data without making errors? 
   2. Tactical problem: how can you discover information contained in your data?
   3. Strategic problem: how can you use data to draw conclusions about the world at large, and quantify strength of belief in those conclusions?
 
-- visualization of 3 fields solving these problems: ![data-science-visualized](https://rstudio-education.github.io/hopr/images/hopr_1004.png)
+- visualization of 3 fields solving these problems (note: this photo is made by Dr. Grolemund): ![data-science-visualized](https://rstudio-education.github.io/hopr/images/hopr_1004.png)
 
 # ARCHIVE, SINCE IT DIDN'T WORK
 - Also, to use RMarkdown, since RStudio's installation didn't work, so used binaries instead:
