@@ -15,6 +15,8 @@ After getting a warning message, I installed [Rtools](https://cran.rstudio.com/b
 - "WHY?" indicates a question that I have about the material. it may or may not be answered, read the comment
   
 # essential R things:
+- to run R code: highlight desired code, press ```CTRL``` + ```ENTER```
+  - note: for scoped blocks of code (enclosed by set of parentheses), you dont have to highlight the whole scope, you can just put the cursor inside the scope and then ```CTRL``` + ```ENTER```
 - don't confuse ```R c(0, 2, 5)[4, 5, 1]``` with ```R c(0,2,5)[c(4,3,1)]``` 
   - ```R c(0, 2, 5)[4, 5, 1]``` will break since it's saying "look at the 4th item in the 1st dimension, 5th item in the 2nd dimension, and 1st item in the 3rd dimension" but c(0,2,5) is a 1D vector of integers. 
   - ```R c(0,2,5)[c(4,5,3,1,2,1)]``` packages all the indices and tries to retrieve them from the 1st dimension:  "4th item in the 1st dimension, 5th item in the 1st dimension, 3rd item in the 1st dimension, etc."
@@ -36,6 +38,8 @@ After getting a warning message, I installed [Rtools](https://cran.rstudio.com/b
   # block comments in R don't exist but you can comment/uncoment out multiple lines by:
   # (1) highlight section then control + shift + C (to comment)
   # (2) In RStudio menubar: Code > Comment/Uncomment Lines
+
+  install.packages("tidyverse") # seems to have enabled markdown previewing in Rstudio!
   ```
 
 # beautiful concepts misc.
